@@ -1,0 +1,132 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f5f5f5;
+	display: flex;
+	font-family: Arial, sans-serif;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	max-width: 1200px;
+	background-color: #f5f5f5;
+}
+
+
+.imgcelulares {
+	margin-right: 20px;
+}
+
+.celulares {
+	width: 400px;
+	height: auto;
+}
+
+.quadro {
+	display: flex;
+	flex-direction: column;
+}
+
+.quadro1 {
+	background-color: white;
+	border: 1px solid #dbdbdb;
+	padding: 20px;
+	text-align: center;
+	width: 350px;
+}
+
+.instagram {
+	margin-bottom: 20px;
+}
+
+.longin-button {
+	width: 100%;
+	padding: 10px;
+	background-color: #0b91f2;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.longin-button:hover {
+	background-color: #007bb5;
+}
+
+.remover-conta {
+	margin-top: 10px;
+	display: block;
+	color: #0b91f2;
+	text-decoration: none;
+}
+
+.quadro2 {
+	background-color: white;
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #dbdbdb;
+	border-radius: 4px;
+	text-align: center;
+}
+
+.segundo-quadro {
+	color: #0b91f2;
+	text-decoration: none;
+}
+
+.segundo-quadro:hover {
+	text-decoration: underline;
+}
+
+.quadro3 {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.baixe-app {
+	color: black;
+	text-decoration: none;
+}
+
+.baixar-app {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	margin-top: 10px;
+}
+
+.baixar-app img {
+	width: 140px;
+}
+
+
+
+.perfil-carlos {
+	height: 100px;
+	border-radius: 50%;
+}
+
+.cinza {
+	color: gray;
+}
+
+.cinza, .segundo-quadro p {
+	display: inline;
+	margin: 0;
+}
+
+@media(max-width:912px){
+	.imgcelulares{
+		display: none;
+	}
+}
